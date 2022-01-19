@@ -4,73 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AboutToDo</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header> <div id="logo">
-        <img src="assets/todologo.png" alt="todologo">
-    </div>
-    <div> 
-        <h1>ToDO</h1>
-    </div>
-    <nav>
+    <header>
+        <nav>
+        <div class="header-logo">
+            <img src="assets/todologo.png" alt="todologo" class="logo-img">
+        </div>
+        <div>       
         <ul>
-            <li><a href ="index.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li>TO DO LISTS EXAMPLES</li>
-            <li><a href ="about.html">ABOUT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
             <li>CONTACT US</li>
         </ul>
-    </nav>
+        </div>
+        </nav>
     </header>
     <main> 
         <section>
-            <div id="photo">
+            <div class="photo">
                 <p>Photo:</p>
-                <img src="assets/Batool.png" alt="Photo">
+                <img src="assets/Batool.png" alt="Photo" class="batool">
             </div>
-            <div id="name">
+            <div class="name">
                 <p>Name: Batool</p>
             </div>
-            <div id="Discreption">
+            <div class="Discreption">
                 <p>Discreption: Studying web development</p>
             </div>
         </section>
         <section>
-            <div id="sub header">
-                <h2>User's Contact Information</h2>
+            <div class="sub-header">
+                <h2>Contact Me</h2>
             </div>
-            <div id="static form">
+            <div class="static-form">
                 <form>
-                    <label for="name">name</label>
+                    <label for="name">Full name</label>
                     <input type="text" value="">
                     <br>
-                    <label for="email">email</label>
+                    <label for="email">Email</label>
                     <input type="text" value="">
                     <br>
-                    <label for="message">message</label>
+                    <label for="phone">Phone</label>
                     <input type="text" value="">
                     <br>
-                    <button>submit</button>
+                    <label for="message">Message</label>
+                    <input type="text" value="">
+                    <br>
+                    <button id="submit">send</button>
                 </form>
             </div>
         </section>
     </main>
-    <footer>
-        <section>
-            <div>
-                <p>Facebook:</p>
-                <p>Twitter:</p>
-                <p>Instagram:</p>
-            </div>
-         </section>
-            <div>
-                <p>covid-19</p>
-            </div>
-        </section>
-            <div>
-                <p>copyrights 2022</p>
-            </div>
-        </section>
+    <footer class="footer-buttons">
+        <div class="social">
+            <p>Facebook:</p>
+            <p>Twitter:</p>
+            <p>Instagram:</p>
+        </div>
+     <div class="covid">
+            <p>covid-19</p>
+        </div>
+    <div class="copyrights">
+        <p>ASAC All Rights Reserved 2022</p>
+    </div>
     </footer>
     
 </body>

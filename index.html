@@ -4,28 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <div id="logo">
-            <img src="assets/todologo.png" alt="todologo">
-        </div>
-        <div> 
-            <h1>ToDO</h1>
-        </div>
         <nav>
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li>TO DO LISTS EXAMPLES</li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li>CONTACT US</li>
-            </ul>
+        <div class="header-logo">
+            <img src="assets/todologo.png" alt="todologo" class="logo-img">
+        </div>
+        <div>       
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>TO DO LISTS EXAMPLES</li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li>CONTACT US</li>
+        </ul>
+        </div>
         </nav>
+        <div> 
+            <h1>ToDO List</h1>
+        </div>
     </header>
     <main>
         <div id="task table with checkboxes">
-            <table>
+            <table class="task-table">
                <tr>
                    <th>Tasks</th>
                    <th>Status</th>
@@ -46,21 +50,17 @@
         </div>
     </main>
     <footer>
-        <section>
-        <div>
+        <div class="social">
             <p>Facebook:</p>
             <p>Twitter:</p>
             <p>Instagram:</p>
         </div>
-     </section>
-        <div>
+     <div class="covid">
             <p>covid-19</p>
         </div>
-    </section>
-        <div>
-            <p>copyrights 2022</p>
-        </div>
-    </section>
+    <div class="copyrights">
+        <p>ASAC All Rights Reserved 2022</p>
+    </div>
     </footer>
 </body>
 </html>
