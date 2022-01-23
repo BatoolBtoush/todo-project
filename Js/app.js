@@ -30,7 +30,27 @@ if (conf == true) {
 
 
 
+additionalQuestions();
 
+function additionalQuestions(){
+    let answers = [];
+    let questions = ["Do you like metal?","Do you like the color black?","Do you like Showarma?"];
 
+    for(var i=0;i<questions.length;i++){
+        let question = prompt(questions[i]);
+        if(question == "yes"){
+            answers.push("yes");
+        }else if(question == "no"){
+            answers.push("no");
+        }else{
+            answers.push("invalid");
+        }
+    }   
+    theAnswers(answers);
+}
 
-
+function theAnswers(answers){
+    for(var i = 0;i<answers.length;i++){
+        console.log(answers[i]);
+    }
+}
